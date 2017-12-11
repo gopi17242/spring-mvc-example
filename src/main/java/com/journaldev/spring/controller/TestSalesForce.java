@@ -52,7 +52,8 @@ public boolean validateUser(String userid,String password) throws ConnectionExce
 		boolean isExist = false;
 		//////////////
 		System.out.println("====================getContactsList===========================");
-		System.out.println("====================getContactsList==============test=============");
+		System.out.println("====================getContactsList==============trest=============");
+		System.out.println("====================getContactsList==============trest=============");//test2
 		// query for the 5 newest contacts     
 		QueryResult queryResultsc = connection.query("SELECT Id, Email, Password__c, FirstName, LastName, Phone, Title, Account.Name " +
 				"FROM Contact WHERE Email ='"+userid+"'");
