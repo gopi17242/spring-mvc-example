@@ -10,6 +10,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.journaldev.spring.model.Contacts;
 import com.journaldev.spring.model.User;
 
 @Controller
@@ -36,5 +37,12 @@ public class HomeController {
 		System.out.println("User Page Requested");
 		model.addAttribute("userName", user.getUserName());
 		return "user";
+	}
+	
+	@RequestMapping(value = "/contacts", method = RequestMethod.POST)
+	public String users(@Validated Contacts contacts, Model model) {
+		System.out.println("User Page Requested");
+		model.addAttribute("userName", contacts.getFirstName());
+		return "contacts";
 	}
 }

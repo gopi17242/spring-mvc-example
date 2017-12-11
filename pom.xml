@@ -8,8 +8,35 @@
 	<name>Spring MVC Example</name>
 	<description>Spring MVC Hello World Example</description>
 
+<repositories>
+		<repository>
+			<id>sf-enterprise</id>
+			<name>sf-enterprise</name>
+			<url>https://raw.githubusercontent.com/gopi17242/mvn-repo/master/</url>
+		</repository>
+	</repositories>
+
 	<!-- Add Spring Web and MVC dependencies -->
 	<dependencies>
+	<dependency>
+			<groupId>sf-enterprise</groupId>
+			<artifactId>sf-enterprise</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.force.api/force-wsc -->
+		<dependency>
+			<groupId>com.force.api</groupId>
+			<artifactId>force-wsc</artifactId>
+			<version>34.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.force.api/force-partner-api -->
+		<dependency>
+			<groupId>com.force.api</groupId>
+			<artifactId>force-partner-api</artifactId>
+			<version>24.0.0</version>
+		</dependency>
+	
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
