@@ -10,8 +10,9 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.journaldev.spring.model.Contacts;
 import com.journaldev.spring.model.User;
+
+
 
 @Controller
 public class HomeController {

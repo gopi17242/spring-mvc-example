@@ -8,5 +8,16 @@
 </head>
 <body>
 <h3>Hi ${userName}</h3>
+
+<br/>
+<br/>
+<br/>
+
+<a href="contacts.jsp">Contacts Details</a>
+
+<form action="contacts" method="post">
+		<input type="text" name="userName"><br> <input
+			type="submit" value="getContacts">
+	</form>
 </body>
 </html>

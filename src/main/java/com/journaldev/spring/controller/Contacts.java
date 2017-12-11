@@ -1,4 +1,4 @@
-package com.journaldev.spring.model;
+package com.journaldev.spring.controller;
 public class Contacts {
 	
 	

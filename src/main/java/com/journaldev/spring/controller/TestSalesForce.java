@@ -3,7 +3,6 @@ package com.journaldev.spring.controller;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.journaldev.spring.model.Contacts;
 import com.sforce.soap.enterprise.Connector;
 import com.sforce.soap.enterprise.EnterpriseConnection;
 import com.sforce.soap.enterprise.QueryResult;
